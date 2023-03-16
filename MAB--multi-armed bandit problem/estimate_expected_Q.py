@@ -22,7 +22,3 @@ class BernouliBandit():
 
 
 
-K = 10
-bandit_10_arms = BernouliBandit(K)
-print("Randomly generate a %d armed bandit" %K)
-print('the max expected_Q is: %.4f, its number is: %d' %(bandit_10_arms.best_prob, bandit_10_arms.best_idx))
