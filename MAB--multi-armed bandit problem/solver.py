@@ -76,6 +76,7 @@ class EpsilonGreedy(Solver):
         return k
     
 
+# 
 
 
 # plot the relation curves that the accumulated regrets varies with time 
